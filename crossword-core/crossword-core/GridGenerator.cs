@@ -10,11 +10,12 @@ namespace crossword_core
     {
         private int width;
         private int height;
-        private int complexity;
+        //private int complexity;
 
-        public GridGenerator()
+        public GridGenerator(int width, int height)
         {
             this.width = width;
+            this.height = height;
         }
     }
 }

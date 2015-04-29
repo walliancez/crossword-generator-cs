@@ -10,7 +10,8 @@ namespace crossword_core
     {
         public void Run()
         {
-
+            Grid g = new Grid(10, 10);
+            Console.WriteLine(g.ToString());
         }
         static void Main(string[] args)
         {
